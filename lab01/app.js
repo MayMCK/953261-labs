@@ -40,3 +40,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => console.log(`Running at http://localhost:${PORT}`));
+
+// 953261 Lab 1 — My first Node.js server
