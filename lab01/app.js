@@ -21,7 +21,6 @@ const server = http.createServer((req, res) => {
     res.end("<h1>Hello, 953261!</h1><p>My name is Mika(student ID 692115506)</p>");
     return;
   }
-
   // TODO: add GET /api/me here
   if (req.method === "GET" && req.url === "/api/me") {
     res.writeHead(200, { "Content-Type": "application/json" });
